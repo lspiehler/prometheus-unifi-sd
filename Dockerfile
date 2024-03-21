@@ -7,9 +7,9 @@ RUN mkdir -p /var/node
 
 WORKDIR /var/node
 
-RUN git clone https://github.com/lspiehler/node-mysql-rest-api.git
+RUN git clone https://github.com/lspiehler/prometheus-unifi-sd.git
 
-WORKDIR /var/node/node-mysql-rest-api
+WORKDIR /var/node/prometheus-unifi-sd
 
 RUN npm install
 
